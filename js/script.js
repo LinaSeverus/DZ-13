@@ -14,6 +14,6 @@ function calcExpon(num1, num2) {
 
 }
 
-let userMessage = calcExpon(+prompt('Введите число'), prompt('В какую степень возвести первое число?'));
+const userMessage = calcExpon(+prompt('Введите число'), prompt('В какую степень возвести первое число?'));
 alert(userMessage);
 
